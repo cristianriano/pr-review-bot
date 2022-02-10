@@ -1,6 +1,6 @@
 # PR Review Bot
 
-Python bot to check PRs with a given tag and remind reviewrs in Slack
+Python bot to check PRs with a given tag and remind reviewers in Slack
 
 ## Setup
 

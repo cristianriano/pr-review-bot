@@ -1,11 +1,11 @@
-from array import array
-
+from typing import List
 
 class PullRequest:
-  def __init__(self, number: str, url: str, labels: array = []):
+  def __init__(self, number: str, url: str, labels: List = [], reviewers: List = []):
       self.number = number
       self.url = url
       self.labels = labels
+      self.reviewers = reviewers
 
   def to_s(self):
     print(f'PR: {self.number}\nURL: {self.url}')
