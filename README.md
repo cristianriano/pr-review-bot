@@ -19,3 +19,8 @@ source .venv/bin/activate
 - `pip install ****`
 - Update the requireements file
 - `pip freeze > requirements.txt`
+
+## Run
+
+To run it from the python shell:
+- `exec(open("./main.py").read())`
