@@ -24,3 +24,8 @@ source .venv/bin/activate
 
 To run it from the python shell:
 - `exec(open("./main.py").read())`
+
+### Slack Message template
+
+For designing messages Slack uses Block Kit framework.
+[Here you can build how the message should look like](https://api.slack.com/tools/block-kit-builder)

@@ -5,4 +5,4 @@ from config import *
 prs = fetch_pr_by_labels(USERNAME, ACCESS_TOKEN, labels=LABELS)
 
 for pr in prs:
-  print(pr.reviewers)
+  print(pr.to_s())

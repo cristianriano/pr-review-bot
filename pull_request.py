@@ -8,4 +8,4 @@ class PullRequest:
       self.reviewers = reviewers
 
   def to_s(self):
-    print(f'PR: {self.number}\nURL: {self.url}')
+    return f'PR: {self.number}\nURL: {self.url}\nReviewrs: {self.reviewers}\n\n'
